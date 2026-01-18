@@ -6,7 +6,7 @@ Status: in_progress
 
 ## Instructions for OpenCode
 
-When you have completed the goal, update this file by changing the status to: 
+When you have completed the goal, update this file by changing the status to:
 
 completed.
 

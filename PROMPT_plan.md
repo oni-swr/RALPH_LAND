@@ -1,11 +1,9 @@
-0a. Study `specs/*` with subagents
-0b. Study @IMPLEMENTATION_PLAN.md (if present) to understand the plan so far.
-0c. Study `src/lib/*` with subagents
-0d. For reference, the application source code is in `src/*`.
 
+0. Study Specs in specs/
 1. Study @IMPLEMENTATION_PLAN.md (if present; it may be incorrect)
-2. o study existing source code in `src/*` and compare it against `specs/*`.
-3. Use a subagent to analyze findings, prioritize tasks, and create/update @IMPLEMENTATION_PLAN.md as a bullet point list sorted in priority of items yet to be implemented.
+2. study existing source code in `src/dmx_anim_transfer` and compare it against `specs/*`.
+3. create/update @IMPLEMENTATION_PLAN.md as a detailed bullet point list sorted in priority of items that need to be done. 
+4. MOST IMPORTANT: WRITE YOUR FINDINGS INTO @IMPLEMENTATION_PLAN.md
 
 IMPORTANT: Plan only. Do NOT implement anything. Do NOT assume functionality is missing; confirm with code search first. Treat `src/lib` as the project's standard library for shared utilities and components. Prefer consolidated, idiomatic implementations there over ad-hoc copies.
 

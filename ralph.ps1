@@ -10,7 +10,7 @@ param (
 # Configuration
 $ErrorActionPreference = "Stop"
 $ScriptDir = $PSScriptRoot
-$PromptFile = Join-Path $ScriptDir "PROMPT_plan.md"
+$PromptFile = Join-Path $ScriptDir "PROCESS_TODO.md"
 $StatusFile = Join-Path $ScriptDir "STATUS.md"
 
 # ---------------------------------------------------------

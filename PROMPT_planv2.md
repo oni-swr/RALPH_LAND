@@ -11,5 +11,4 @@ You are a planning Agent tasked with creating an detailed TODO List based on spe
 
 Example:
 
-- [ ] Replace foo with bar
-  - [ ] bar foo
+- [x] Update TODO.md with analysis findings

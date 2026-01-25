@@ -10,7 +10,7 @@ param (
 # Configuration
 $ErrorActionPreference = "Stop"
 $ScriptDir = $PSScriptRoot
-$PromptFile = Join-Path $ScriptDir "PROCESS_TODO.md"
+$PromptFile = Join-Path $ScriptDir "REVIEW.md"
 $StatusFile = Join-Path $ScriptDir "STATUS.md"
 
 # ---------------------------------------------------------
@@ -64,7 +64,7 @@ function Invoke-OpencodeIteration {
 # Execute opencode using the call operator &
     try {
     # Pipe to Out-Host to force output to screen and keep it out of the return value
-        & opencode run -m opencode/big-pickle "$promptContent" | Out-Host
+        & opencode run -m github-copilot/gpt-4.1 "$promptContent" | Out-Host
     }
 
     catch {

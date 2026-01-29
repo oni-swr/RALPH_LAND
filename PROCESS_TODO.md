@@ -8,6 +8,7 @@
 6. Mark as Complete [x]
 7. stop
 
+## pytest.log for debugging
 ## NOTE
 
 Run git diff [FILE NAME] to see changes that have already been made.

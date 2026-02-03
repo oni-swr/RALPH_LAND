@@ -11,6 +11,8 @@
 ## pytest.log for debugging
 ## NOTE
 
+## use the venv
+
 Run git diff [FILE NAME] to see changes that have already been made.
 
 Run pytest to see if codes has errors running
